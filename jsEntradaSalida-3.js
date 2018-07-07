@@ -2,11 +2,10 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	var nombre;
-	nombre=document.getElementById('elNombre');
-	alert(nombre);
+	var	nombre_usuario;
+	nombre_usuario=document.getElementById('elNombre').value="Tomas"
+
+	Alert("elNombre");
 }
 
 
-/*ID:Identificador, legajo, Identificara estara en
-el html,entrelazando ambos*/

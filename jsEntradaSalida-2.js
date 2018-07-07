@@ -2,14 +2,10 @@
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	/*El promot sirve como entrada y salida 
-	El promot sirve como entrada y salida
-	El promot sirve como entrada y salida*/
-	var nombre; /* Esta funcion siempre */
-	nombre = prompt("Ingrese su nombre");
-	alert("Su nombre es:"+nombre);
+	var	nombre_usuario;
+	nombre_usuario = prompt("Como es tu nombre");
+	nombre_usuario = getElementById('FormIngreso').value;
+	alert(nombre_usuario);
 
 }
 
-/*2 Alert : ("Nombre");
-(Nombre); (Sin comillas es para variable especifica)*/
